@@ -1,0 +1,24 @@
+/*when we point the cursure it changes the color*/
+a:hover{
+	color: red;
+	font-size: 30px;
+}
+
+
+/*when we press the link its color changes*/
+a:active{
+	color: black;
+}
+
+/*alredy visited links color changed*/
+
+
+a:link{
+	color: green;
+}
+
+div:hover{
+	height: 50px;
+	width: 50px;
+	background-color: cyan;
+}

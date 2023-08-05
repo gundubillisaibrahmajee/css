@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<title>Positioning</title>
+	<style type="text/css">
+		#a{
+			height: 300px;
+			width: 300px;
+			background-color: lightpink;
+			float: left;
+			/*top: 10px;
+			position: static;*/
+			
+			
+		}
+		#b{
+			height: 300px;
+			width: 300px;
+			background-color: lightblue;
+			float: left;
+			/*position: relative;
+			top: 10px;*/
+			
+		}#c{
+			height: 300px;
+			width: 300px;
+			background-color: lightgreen;
+			float: left;
+			position: absolute;
+			top: 10px;
+		}#d{
+			height: 300px;
+			width: 300px;
+			background-color: gray;
+			float: left;
+			/*position: fixed;
+			top: 10px;
+			left: 20px;*/
+		}
+		.m{
+			height: 400px;
+			width: 400px;
+			border: 3px solid red;
+			position: relative;
+			float: right;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="a">static</div>
+	<div id="b">relative</div>
+	<div class="m">
+	<div id="c">absolute</div>
+	</div>
+	<div id="d">fixed</div>
+
+
+</body>
+</html>
